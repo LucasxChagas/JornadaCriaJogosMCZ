@@ -133,7 +133,7 @@ GameObject:
   - component: {fileID: 141994475}
   - component: {fileID: 141994477}
   - component: {fileID: 141994476}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Plataforma 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -183,7 +183,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 141994474}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 2a6ba080d95b2ee4dac9dc6cd6ed0817, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -2031,7 +2031,7 @@ CompositeCollider2D:
   m_GameObject: {fileID: 190765839}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 2a6ba080d95b2ee4dac9dc6cd6ed0817, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -2138,7 +2138,7 @@ GameObject:
   - component: {fileID: 392332353}
   - component: {fileID: 392332355}
   - component: {fileID: 392332354}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: "Ch\xE3o"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3514,7 +3514,7 @@ CompositeCollider2D:
   m_GameObject: {fileID: 392332349}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 2a6ba080d95b2ee4dac9dc6cd6ed0817, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -3708,7 +3708,7 @@ GameObject:
   - component: {fileID: 405864074}
   - component: {fileID: 405864076}
   - component: {fileID: 405864075}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Plataforma 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3758,7 +3758,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 405864073}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 2a6ba080d95b2ee4dac9dc6cd6ed0817, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -4108,7 +4108,7 @@ GameObject:
   - component: {fileID: 1074426276}
   - component: {fileID: 1074426278}
   - component: {fileID: 1074426277}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Plataforma 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4158,7 +4158,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 1074426275}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 2a6ba080d95b2ee4dac9dc6cd6ed0817, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -4205,7 +4205,7 @@ GameObject:
   - component: {fileID: 1551646726}
   - component: {fileID: 1551646728}
   - component: {fileID: 1551646727}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Plataforma 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4255,7 +4255,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 1551646725}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 2a6ba080d95b2ee4dac9dc6cd6ed0817, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -4581,6 +4581,7 @@ GameObject:
   - component: {fileID: 2088574467}
   - component: {fileID: 2088574468}
   - component: {fileID: 2088574469}
+  - component: {fileID: 2088574470}
   m_Layer: 0
   m_Name: Jogador
   m_TagString: Untagged
@@ -4597,7 +4598,7 @@ Transform:
   m_GameObject: {fileID: 2088574466}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -9.608, y: -2, z: 0}
+  m_LocalPosition: {x: -9.608, y: -2.03, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -4629,8 +4630,8 @@ Rigidbody2D:
     m_Bits: 0
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
+  m_CollisionDetection: 1
+  m_Constraints: 4
 --- !u!70 &2088574469
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -4640,7 +4641,7 @@ CapsuleCollider2D:
   m_GameObject: {fileID: 2088574466}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 2a6ba080d95b2ee4dac9dc6cd6ed0817, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -4666,6 +4667,28 @@ CapsuleCollider2D:
   m_Offset: {x: 0.032797337, y: -0.2336824}
   m_Size: {x: 1.2953405, y: 1.5001621}
   m_Direction: 0
+--- !u!114 &2088574470
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2088574466}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60bf44e3e953bc346a37dcacf214a974, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rb: {fileID: 2088574468}
+  animator: {fileID: 2118983552}
+  sr: {fileID: 2118983551}
+  velocidadeMovimento: 3
+  forcaDoPulo: 8
+  layerDoChao:
+    serializedVersion: 2
+    m_Bits: 8
+  tamanhoCaixa: {x: 0.8, y: 0.25}
+  posicaoCaixaOffset: 0.92
 --- !u!1 &2118983549
 GameObject:
   m_ObjectHideFlags: 0
