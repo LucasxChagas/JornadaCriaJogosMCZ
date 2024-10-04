@@ -2,6 +2,8 @@
 
 ![image](https://github.com/user-attachments/assets/ba2aca2e-07cb-48c5-a0fb-588c17611668)
 
+<p>Slide: https://docs.google.com/presentation/d/1uBUYfIk4KBNkvOQeNvxPwQo5g1vECOmIpDHEY_5kwWc/edit?usp=sharing</p>
+
 ## Sobre o Projeto
 
 Pequeno projeto de Jogo de Plataforma desenvolvido durante a **Jornada CriaJogos**, promovida pelo **Ximbra Studios** juntamente com **SEBRAE Alagoas**. O objetivo é capacitar estudantes e entusiastas de desenvolvimento de jogos, a cerca do motor gráfico de jogos **Unity**.
